@@ -60,7 +60,7 @@
       <div class="col">
         <a href="/listings/<%= listing._id %>" class="text-decoration-none">
           <div class="card listing-card h-100 shadow-sm">
-            <img src="<%= listing.image.url %>" class="card-img-top" style="height: 16rem; object-fit: cover;" alt="...">
+            <img src="<%= listing.image && listing.image.url ? listing.image.url : '/images/listing-placeholder.svg' %>" class="card-img-top" style="height: 16rem; object-fit: cover;" alt="<%= listing.image && listing.image.url ? listing.title : 'No listing image available' %>">
             <div class="card-body">
               <p class="card-text text-dark">
                 <b><%= listing.title %></b><br>

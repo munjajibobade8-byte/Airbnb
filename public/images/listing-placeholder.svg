@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-labelledby="title">
+  <title id="title">No listing image available</title>
+  <rect width="800" height="500" fill="#f1f2f2"/>
+  <path d="M0 390 190 215l105 96 117-139 196 218H0Z" fill="#d6dfdd"/>
+  <path d="m298 311 114-139 196 218H386Z" fill="#c4d1ce"/>
+  <circle cx="603" cy="119" r="43" fill="#e4d6bd"/>
+  <text x="400" y="447" fill="#64716e" font-family="Arial, sans-serif" font-size="22" text-anchor="middle">No image available</text>
+</svg>
